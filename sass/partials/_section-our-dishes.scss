@@ -1,0 +1,81 @@
+.section-our-dishes{
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+.section-our-dishes h2{
+    font-family: Tinos;
+    text-align: center;
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: normal;
+    padding-bottom: 10%;
+    @include ultra-small{
+        padding-top: 15%;
+        padding-bottom: 20%;
+    }
+}
+
+.our-dishes-hidden{
+    @include ultra-small{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    display: none;
+    flex-direction: column;
+    div{
+        padding-bottom: 10%;
+    }
+}
+.dishes-hidden{
+    @include ultra-small{
+        margin-bottom: 130%;
+    }
+    
+    height: 600px;
+}
+.pizza-hidden{
+    margin-bottom: 15%;
+}
+.box-hidden{
+    @include ultra-small{
+        justify-content: center;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    img{
+        height: 50%;
+    }
+}
+.box-hidden-text{
+    padding-top: 8%;
+    width: 60%;
+    font-size: 30px;
+    line-height: 100%;
+}
+.our-dishes-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include ultra-small{
+        display: none;
+    }
+}
+.our-dishes-pizza{
+    padding-left: 9%;
+    width: 33%;
+}
+.our-dishes-hamburger{
+    font-size: 26px;
+    line-height: 30px;
+    width: 55%;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+.box img{
+    padding-right: 5%;
+}

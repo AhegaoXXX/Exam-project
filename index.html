@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Restaurant</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-hidden">
+                <div class="nav-hidden">
+                    <img src="/img/logo-img.png" alt="">
+                    <select name="" id="" class="order-hidden">
+                        <option value=""><a href="#"></a></option>
+                        <option> <a href="#dishes">меню</a> </option>
+                        <option><a href="#about">о нас</a></option>
+                        <option><a href="#">бронь</a></option>
+                    </select>
+                </div>
+                <div class="main-table-hidden" data-aos="fade-right">
+                    <p>
+                        <span class="text-1">
+                            Добро пожаловать
+                        </span>
+                        
+                    </p>
+                    <p>
+                        <span class="text-2">
+                            В наш ресторан
+                        </span>
+                        
+                    </p>
+                    <p>
+                        <span class="text-3">дом лучшей еды</span>
+                        
+                    </p>
+                    <a href="#menu" class="button button-view">меню</a>
+                </div>
+            </div>
+
+
+            
+
+            <div class="nav">
+                <div class="nav-logo">
+                    <a href="#"><img src="/img/logo-img.png" alt="logo"></a>
+                </div>
+                <div class="nav-inner">
+                    <ul class="nav-burger">
+                        <li>
+                            <a href="#">
+                                главная
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="#dishes">
+                                меню
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="#about">
+                                о нас
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                бронь                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="/img/cart.png" alt="" width="20px">                          
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="order">
+                        <div class="order-call">
+                            <a href="#">
+                                <img src="/img/phone.png" alt="">            
+                            </a>
+                            <a href="#" class="phone-number">
+                                +996-777-76-54
+                            </a>
+                        </div> 
+                        <p>
+                            Свяжитесь с нами для 
+                            бронирования
+                        </p>
+                    </div>
+                    <div class="button order-button" id="reserve">
+                        <a href="#">
+                            заказ столика
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main-table" data-aos="fade-right">
+                <p>
+                    <span class="text-1">
+                        Добро пожаловать в
+                    </span>
+                    
+                </p>
+                <p>
+                    <span class="text-2">
+                        Наш ресторан
+                    </span>
+                    
+                </p>
+                <p>
+                    <span class="text-3">
+                        &mdash;&mdash;&mdash; дом лучшей еды &mdash;&mdash;&mdash;
+                    </span>
+                    
+                </p>
+                <a href="#menu" class="button button-view">
+                    view menu
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-description">
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <img src="/img/dish.png" alt="">
+                    <p>
+                        Магическая  <span class="color-coffee"> Атмосфера </span>
+                    </p>
+                    <p>
+                        <span class="color-gray">
+                            В нашем заведении царит магическая атмосфера
+                        наполненная вкусными ароматами
+                        </span>
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="/img/dish.png" alt="">
+                    <p>
+                        Лучшее качество  <span class="color-coffee"> Еды </span>
+                    </p>
+                    <p>
+                        <span class="color-gray">
+                            Качество нашей Еды - отменное!
+                        </span>
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="/img/dish.png" alt="">
+                    <p>
+                        Недорогая  <span class="color-coffee"> Еда </span>
+                    </p>
+                    <p>
+                        <span class="color-gray">
+                            Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!
+                        </span>
+                        
+                    </p>
+                </div>
+            </div>
+
+            <div class="description" id="about">
+                <div class="description-text">
+                    <div class="description-text-inner-1">
+                        <h1>
+                            Наша <span class="color-coffee">История</span>
+                        </h1>
+                        <p><span class="color-gray">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</span></p>
+                    </div>
+                    <div class="description-text-inner-2">
+                        <div>
+                            <p><span class="color-coffee font-size-40">93</span></p>
+                            <p>Напитки</p>
+                        </div>
+                        <div>
+                            <p><span class="color-coffee font-size-40">206</span></p>
+                            <p>Еда</p>
+                        </div>
+                        <div>
+                            <p><span class="color-coffee font-size-40">71</span></p>
+                            <p>Закуски</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="description-img">
+                    <img src="/img/chack-chack.png" alt="" class="img-1">
+                    <img src="/img/bar-windows.png" alt="" class="img-2">
+                    <img src="/img/green-cake.png" alt="" class="img-3">
+                    <img src="/img/beige-color__design-box.png" alt="" class="img-4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-offer">
+        <div class="container">
+            <div class="section-offer-inner">
+                <div class="section-offer__text">
+                    <h2>
+                        Отпразднуйте в одном из самых лучших ресторанов.
+                    </h2>
+                    <p>
+                        Только в этом месяце бизнес-ланч от 250 ₽
+                    </p>
+                </div>
+                <div class="section-offer__button">
+                    <a href="#" class="button">
+                        заказ столика
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="section-our-dishes" >
+        <div class="container">
+            <div class="our-dishes" id="dishes"> 
+                <h2>Наши <span class="color-coffee">Блюда</span></h2>
+
+                <div class="our-dishes-hidden">
+                    <div class="pizza-hidden">
+                        <img src="/img/pizza.png" alt="" width="100%">
+                    </div>
+                    <div class="dishes-hidden">
+                        <div class="box-hidden">
+                            <img src="/img/hamburger.png" alt="" >
+                            <div class="box-hidden-text">
+                                <p>Гамбургер мини</p>
+                                <p>220 ₽</p>
+                            </div>
+                        </div>
+                        <div class="box-hidden">
+                            <img src="/img/hamburger.png" alt="" >
+                            <div class="box-hidden-text">
+                                <p>Гамбургер мини</p>
+                                <p>220 ₽</p>
+                            </div>
+                        </div>
+                        <div class="box-hidden">
+                            <img src="/img/hamburger.png" alt="" >
+                            <div class="box-hidden-text">
+                                <p>Гамбургер мини</p>
+                                <p>220 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="our-dishes-inner">
+                    <div class="our-dishes-pizza">
+                        <img src="/img/pizza.png" alt="" >
+                    </div>
+                    <div class="our-dishes-hamburger">
+                        <div class="box">
+                            <img src="/img/hamburger.png" alt="" width="25.5%">
+                            <p>
+                                Гамбургер мини &#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867; 220 ₽
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="/img/hamburger.png" alt="" width="25.5%">
+                            <p>
+                                Гамбургер мини &#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867; 220 ₽
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="/img/hamburger.png" alt="" width="25.5%">
+                            <p>
+                                Гамбургер мини &#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867; 220 ₽
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-our-menu">
+        <div class="container">
+            <div id="menu">
+                <p class="our-menu-title">Наше меню</p>
+                <div class="our-menu">
+                    <div class="menu-card">
+                        <p class="recommended">recommended</p>
+                        <img src="/img/burger-menu.png" alt="burger">
+                        <p class="menu-price">420</p>
+                        <h3>Гамбургер макси</h3>
+                        <p class="menu-description">Максимально толстый слой мяса</p>
+                        <a href="#" class="button-order">заказать</a>
+                    </div>
+                    <div class="menu-card menu-card-x">
+                        <img src="/img/burger-menu.png" alt="burger">
+                        <p class="menu-price">420</p>
+                        <h3>Гамбургер макси</h3>
+                        <p class="menu-description">Максимально толстый слой мяса</p>
+                        <a href="#" class="button-order">заказать</a>
+                    </div>
+                    <div class="menu-card menu-card-x">
+                        <img src="/img/burger-menu.png" alt="burger">
+                        <p class="menu-price">420</p>
+                        <h3>Гамбургер макси</h3>
+                        <p class="menu-description">Максимально толстый слой мяса</p>
+                        <a href="#" class="button-order">заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-review">
+        <div class="container">
+            <div class="review" data-aos="zoom-in">
+                <p class="review-text">
+                    Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                </p>
+                <img src="/img/client_Nicolas.png" alt="">
+                <p> <b>Посетитель</b> </p>
+                <p>Николай</p>
+                <div class="uk-position-relative uk-gray" uk-slideshow>
+                    <div class="uk-position-small">
+                        <ul class="uk-dotnav">
+                            <li uk-slideshow-item="0" ><a href="#">Item 1</a></li>
+                            <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                            <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-gallery">
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery-dishes">
+                    <div class="gallery-titles">
+                        <p>Галерея <span class="color-coffee">Блюд</span></p>
+                    </div>
+                    <div class="gallery-box">
+                        <div class="gallery-dishes-img">
+                            <img src="/img/table-dinner.png" alt="">
+                            <img src="/img/coffee.png" alt="">
+                            <img src="/img/goulash.png" alt="">
+                        </div>
+                        <div class="gallery-dishes-img">
+                            <img src="/img/coffee.png" alt="">
+                            <img src="/img/goulash.png" alt="">
+                            <img src="/img/table-dinner.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-chefs">
+                    <div class="gallery-titles">
+                        <p>Наши <span class="color-coffee">Повара</span></p>
+                    </div>
+                    <div class="gallery-chefs-img">
+                        <img src="/img/chef-1.png" alt="" class="chef-1">
+                        <img src="/img/chef-2.png" alt="" class="chef-2">
+                        <img src="/img/chef-3.png" alt="" class="chef-3">
+                    </div>
+                </div>
+                <div class="uk-position-relative uk-gray" uk-slideshow>
+                    <div class="uk-position-small">
+                        <ul class="uk-dotnav">
+                            <li uk-slideshow-item="0" ><a href="#">Item 1</a></li>
+                            <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                            <li uk-slideshow-item="1"><a href="#">Item 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-up">
+                    <div class="footer-logo">
+                        <a href="#"><img src="/img/logo-img.png" alt=""></a>
+                    </div>
+                    <div class="footer-cards">
+                        <ul>
+                            <li class="foot-card-title"><a href="#">Partnership</a></li>
+                            <li class="foot-card-link"><a href="#">advertising</a></li>
+                            <li class="foot-card-link"><a href="#">perfomances</a></li>
+                            <li class="foot-card-link"><a href="#">branches</a></li>
+                        </ul>
+                        <ul>
+                            <li class="foot-card-title"><a href="#">Services</a></li>
+                            <li class="foot-card-link"><a href="#">Customer service</a></li>
+                            <li class="foot-card-link"><a href="#">promotions</a></li>
+                            <li class="foot-card-link"><a href="#">resourses</a></li>
+                        </ul>
+                        <ul>
+                            <li class="foot-card-title"><a href="#">Legal</a></li>
+                            <li class="foot-card-link"><a href="#">privacy policy</a></li>
+                            <li class="foot-card-link"><a href="#">conditions</a></li>
+                            <li class="foot-card-link"><a href="#">safety and security</a></li>
+                        </ul>
+                        <ul>
+                            <li class="foot-card-title"><a href="#">About us</a></li>
+                            <li class="foot-card-link"><a href="#">career</a></li>
+                            <li class="foot-card-link"><a href="#">contact us</a></li>
+                            <li class="foot-card-link"><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-down">
+                    <div class="footer-down-icons">
+                        <a href="https://www.facebook.com/" class="icon-1" target=_blank><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+                        <a href="https://twitter.com" class="icon-1" target=_blank><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+                        <a href="#" class="icon-1" target=_blank><i class="fa fa-rss" aria-hidden="true"></i></a>
+
+                        <a href="https://www.google.com/account/about/?hl=ru" class="icon-1" target=_blank><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+
+                        <a href="https://www.instagram.com/" class="icon-1" target=_blank><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <p>© Elmurat Dzhumabaev, ITS-2, 2021. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let reserve = document.querySelector('#reserve');
+
+        reserve.addEventListener('click', function(event){
+	        let result = prompt('Какой столик закажете?', '1-100');
+	        
+            if(result >= 1 && result <= 100){
+                alert(`
+                Ваш заказ принят в обработку~ \n 
+                Спасибо что выбрали нас!`);
+            }else if(result === null){
+                alert('=(')
+            }else{
+                alert(`
+                Произошла ошибка.
+                Проверьте правильность введенных данных.`)
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/js/uikit-icons.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

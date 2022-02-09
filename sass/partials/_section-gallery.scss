@@ -1,0 +1,72 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    flex-direction: column;
+}
+.gallery-titles{
+    font-size: 54px;
+    line-height: 62px;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+.gallery-box{
+    transition: 0.1s;
+}
+.gallery-box img:hover{
+    filter: brightness(1.25);
+}
+.gallery-dishes-img{
+    @include big(){
+        width: 100%;
+    };
+     @include medium(){
+        width: 100%;
+    };
+     @include small{
+        width: 100%;
+    };
+     @include ultra-small{
+        width: 100%;
+    };
+}
+.gallery-dishes-img img{
+    padding: 15px;  
+}
+.gallery-chefs-img{
+    justify-content: center;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-chefs-img img{
+    @include big(){
+        width: 30%;
+    };
+    @include medium-big(){
+        width: 30%;
+    };
+    @include medium(){
+        width: 30%;
+    };
+     @include small{
+        width: 90%;
+    };
+     @include ultra-small{
+        width: 90%;
+    };
+    padding: 15px;
+    transition: 0.5s;
+}
+.chef-1:hover{
+    background: #FF7400;
+}
+.chef-2:hover{
+    background: #FF7400;
+}
+.chef-3:hover{
+    background: #FF7400;
+}

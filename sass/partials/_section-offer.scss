@@ -1,0 +1,56 @@
+.section-offer{
+    @include ultra-small{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    background: url(/img/main-dessert.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-color: #000000D9;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-around;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+}
+.section-offer h2{
+    @include ultra-small{
+        font-size: 26px;
+        line-height: 30px; 
+    }
+    color: #D67E34;
+    font-size: 52px;
+    line-height: 60px; 
+}
+.section-offer-inner{
+    @include ultra-small{
+        text-align: center;
+        flex-direction: column;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-offer__text{
+    @include ultra-small{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 30px;
+        width: 90%;
+    }
+    padding-top: 50px;
+    padding-left: 5%;
+    width: 55%;
+}
+.section-offer__button{
+    @include small{
+        padding-top: 40%;
+    }
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
